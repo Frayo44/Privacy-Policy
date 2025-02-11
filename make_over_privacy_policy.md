@@ -2,7 +2,7 @@
 
 _Last Updated: [Month Day, Year]_
 
-Thank you for choosing **Makeover** (“**we**,” “**our**,” “**us**”). This Privacy Policy describes how we collect, use, and disclose information about you when you use our services (including our mobile application, websites, and any other online or offline offerings, collectively referred to as the “**Services**”). By accessing or using our Services, you agree to the terms of this Privacy Policy.
+Thank you for choosing **Tailor** ("**we**," "**our**," "**us**"). This Privacy Policy describes how we collect, use, and disclose information about you when you use our services (including our mobile application, websites, and any other online or offline offerings, collectively referred to as the "**Services**"). By accessing or using our Services, you agree to the terms of this Privacy Policy.
 
 If you do not agree with these practices, please discontinue use of our Services immediately.
 
@@ -11,7 +11,7 @@ If you do not agree with these practices, please discontinue use of our Services
 ## 1. Who We Are
 
 - **Developer:** Yoav Franko (Individual Developer)  
-- **App Name:** Makeover  
+- **App Name:** Tailor  
 - **Contact Email:** [outfitai@rosenpin.io](mailto:outfitai@rosenpin.io)
 
 We value your privacy and are committed to handling your personal information in a secure and responsible manner.
@@ -29,9 +29,16 @@ This Privacy Policy applies to all information we collect through our Services, 
 ### 3.1 User-Provided Information
 
 1. **Images and Uploaded Content**  
-   - We collect images (e.g., profile pictures or items) that you choose to upload to the Makeover app. These images are sent to our third-party AI service (AWS Bedrock) for processing and are then **deleted** after processing is complete.
+   - We collect images (e.g., profile pictures or items) that you choose to upload to the Tailor app. These images are sent to our third-party AI service (AWS Bedrock Anthropics Model) for processing and are then **deleted** after processing is complete.
 
-2. **Account Information (If Applicable)**  
+2. **Facial Characteristics Data**  
+   - We collect and analyze the following facial characteristics for personalization purposes:
+     - **Eye color**
+     - **Face shape**
+     - **Hair color & length**
+     - **Skin color**
+
+3. **Account Information (If Applicable)**  
    - While no formal user registration is required in some cases, we may collect basic account data (e.g., username or email) if you create an account or provide it voluntarily.
 
 ### 3.2 Automatically Collected Information
@@ -50,7 +57,8 @@ This Privacy Policy applies to all information we collect through our Services, 
 ## 4. How We Use Your Information
 
 1. **AI Image Processing**  
-   - We use AWS Bedrock to process user-uploaded images solely to provide personalized content and recommendations. No permanent storage of your images occurs on our servers; they are processed and then deleted.
+   - We use AWS Bedrock Anthropics Model to process user-uploaded images solely to provide personalized content and recommendations. No permanent storage of your images occurs on our servers; they are processed and then deleted after analysis is complete. The AI model is used to extract relevant features, such as facial characteristics, to enhance user experience through personalized styling suggestions and recommendations.
+   - By using our Services, you acknowledge that we are subject to AWS Bedrock Anthropics Terms of Service, which govern the processing and handling of images. AWS Bedrock Anthropics follows strict security and privacy measures to ensure the protection of user data, and their policies can be reviewed in detail at [AWS Bedrock Anthropics Terms of Service](https://aws.amazon.com/terms/).
 
 2. **Service Improvement**  
    - We analyze usage data to fix bugs, optimize performance, and enhance your experience within the App.
@@ -76,10 +84,10 @@ If required by applicable data protection laws, we rely on one or more of the fo
 ## 6. Data Retention and Deletion
 
 1. **Temporary Storage**  
-   - Images are processed through AWS Bedrock on a temporary basis. Once processing is completed, images are automatically removed from our systems.
+   - Images are processed through AWS Bedrock Anthropics Model on a temporary basis. Once processing is completed, images are automatically removed from our systems. We do **not** save the face images in our servers.
 
 2. **User Control**  
-   - You may delete your information at any time through the in-app “Delete” button or by emailing us at [outfitai@rosenpin.io](mailto:outfitai@rosenpin.io). We will permanently remove your data from our servers and any third-party services (where feasible).
+   - You may delete your information at any time through the in-app “Delete” button or by emailing us at [outfitai@rosenpin.io](mailto:outfitai@rosenpin.io). We will permanently remove your data from our servers and any third-party services (where feasible). The user is also able to delete all their data in the app.
 
 3. **Account Data (If Collected)**  
    - If your data is tied to any account you create, we retain it for as long as your account is active or as needed to provide the Services. Upon request for deletion, we will remove your information within a reasonable timeframe.
@@ -88,8 +96,8 @@ If required by applicable data protection laws, we rely on one or more of the fo
 
 ## 7. Third-Party Services
 
-1. **AWS Bedrock**  
-   - Used for AI image processing. By uploading images, you consent to having them processed on AWS Bedrock’s servers.
+1. **AWS Bedrock Anthropics Model**  
+   - Used for AI image processing. By uploading images, you consent to having them processed on AWS Bedrock’s servers. We are subject to AWS Bedrock’s Terms of Service.
 
 2. **Google Analytics & Firebase**  
    - Used for usage analytics and crash reporting. Please refer to [Google’s Privacy Policy](https://policies.google.com/privacy) for more information on their data handling practices.
@@ -107,32 +115,3 @@ If required by applicable data protection laws, we rely on one or more of the fo
 Our Services are not directed toward children under the age of 13, and we do not knowingly collect any personal information from children. If you are a parent or guardian and believe that we may have collected information about a child, please contact us at [outfitai@rosenpin.io](mailto:outfitai@rosenpin.io). We will promptly address the situation in accordance with applicable laws.
 
 ---
-
-## 9. Security Measures
-
-We implement reasonable administrative, technical, and physical safeguards to protect your information from unauthorized access, use, or disclosure. Examples of measures include:
-- **Encryption** of data in transit and at rest (where possible)  
-- **Secure servers** hosted by AWS  
-- **Restricted access** to confidential data
-
-However, no security measure is perfect, and we cannot guarantee absolute security.
-
----
-
-## 10. Changes to this Privacy Policy
-
-We may update this Privacy Policy from time to time to reflect changes in our practices, technology, legal requirements, or other factors. When we do, we will revise the “Last Updated” date above and post the new policy within the App. Your continued use of our Services after any such update indicates your acceptance of the updated Privacy Policy.
-
----
-
-## 11. Contact Us
-
-If you have any questions, comments, or concerns about this Privacy Policy or our privacy practices, please reach out to:
-
-**Email:** [outfitai@rosenpin.io](mailto:outfitai@rosenpin.io)
-
-We appreciate your feedback and the opportunity to address any issues you may have.
-
----
-
-**By downloading or using Makeover, you acknowledge that you have read and agree to this Privacy Policy.**  
