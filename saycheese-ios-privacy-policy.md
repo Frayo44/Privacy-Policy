@@ -1,67 +1,69 @@
 **Privacy Policy**
 
-Yoav Franko built the SayCheese app as a Free app. This SERVICE is provided by Yoav Franko at no cost and is intended for use as is.
+The latest version of this policy is always at https://saycheese.yfranko.com/privacy
 
-This page is used to inform visitors regarding my policies with the collection, use, and disclosure of Personal Information if anyone decided to use my Service.
+Effective October 31, 2026.
 
-If you choose to use my Service, then you agree to the collection and use of information in relation to this policy. The Personal Information that I collect is used for providing and improving the Service. I will not use or share your information with anyone except as described in this Privacy Policy.
+This policy covers **SayCheese** and **SayCheese Watch Remote** for iPhone and Android, and the SayCheese apps for Garmin watches and Apple Watch (together, "the apps"). The apps are made by Yoav Franko ("I", "me"). If you have a question, write to yoav.francoo@gmail.com.
 
-The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which are accessible at SayCheese unless otherwise defined in this Privacy Policy.
+**The short version**
 
-**Information Collection and Use**
+*   Your photos and videos are taken and saved on your own devices. They are never uploaded to me.
+*   There are no accounts, and I don't sell or share your personal data.
+*   The one thing that travels over the internet is the optional **Garmin HD preview**: small live-preview images, kept in memory for at most 15 seconds and then deleted. You can turn it off.
+*   The apps use a few third-party services (crash reports, analytics, ads in SayCheese, purchases). They are listed below.
 
-For a better experience, while using our Service, I may require you to provide us with certain personally identifiable information. The information that I request will be retained on your device and is not collected by me in any way.
+**Photos, videos, camera and microphone**
 
-The app does use third-party services that may collect information used to identify you.
+The apps use your camera to take photos and videos, and your microphone to record video sound and, in SayCheese, for voice commands. Photos and videos are saved on your phone, or on the phone acting as the camera when you use two phones. Nothing you capture is uploaded to me.
 
-Link to the privacy policy of third-party service providers used by the app
+When two phones or a phone and a watch work together, they talk to each other directly over Wi-Fi Direct, Bluetooth, your local network or Apple's watch connection. The live preview and the photos you take travel only between your own devices. On Garmin watches, these messages pass through Garmin's own Garmin Connect app on your phone.
 
-*   [Google Play Services](https://www.google.com/policies/privacy/)
-*   [AdMob](https://support.google.com/admob/answer/6128543?hl=en)
-*   [Google Analytics for Firebase](https://firebase.google.com/policies/analytics)
-*   [Firebase Crashlytics](https://firebase.google.com/support/privacy/)
+Voice commands in SayCheese are recognized on your phone by an offline speech model. Your voice is never sent anywhere. The model itself is downloaded once from GitHub the first time you use voice commands.
 
-**Log Data**
+**Garmin HD preview**
 
-I want to inform you that whenever you use my Service, in a case of an error in the app I collect data and information (through third-party products) on your phone called Log Data. This Log Data may include information such as your device Internet Protocol (“IP”) address, device name, operating system version, the configuration of the app when utilizing my Service, the time and date of your use of the Service, and other statistics.
+On Garmin watches, the apps can show a sharp, full-color live preview ("HD preview"). Garmin watches can only receive such pictures from the internet, so while HD preview is on and your phone is online:
+
+*   Your phone sends small live-preview images, the size of your watch screen, to a relay server I run on Cloudflare, over an encrypted (https) connection. Saved photos and videos are never sent this way.
+*   The relay keeps only the newest image, in memory only. It is never written to disk and is deleted within 15 seconds. The relay keeps no logs of these requests.
+*   Each session uses a random address that can't be guessed or listed. It's known only to your phone, your watch and Garmin's image service.
+*   Your watch fetches the images through Garmin's image service, which resizes them for your watch. That service is operated by Garmin under [Garmin's privacy policy](https://www.garmin.com/en-US/privacy/global/).
+
+You can turn HD preview off at any time under **Settings > HD preview**, on the phone or on the watch. Without it, or without internet, the preview stays on Bluetooth only and nothing leaves your devices.
+
+**Third-party services**
+
+The apps use these services, which may collect information under their own privacy policies:
+
+*   [Firebase Crashlytics](https://firebase.google.com/support/privacy/) - crash reports, so I can fix bugs.
+*   [Google Analytics for Firebase](https://firebase.google.com/policies/analytics) - anonymous usage statistics, such as which features are used.
+*   [Google AdMob](https://support.google.com/admob/answer/6128543) - ads in the free version of SayCheese.
+*   [RevenueCat](https://www.revenuecat.com/privacy/), together with the App Store and Google Play - in-app purchases in SayCheese.
+*   [Cloudflare](https://www.cloudflare.com/privacypolicy/) - hosts the HD preview relay described above.
+*   [Garmin](https://www.garmin.com/en-US/privacy/global/) - Garmin Connect and Garmin's image service, for the Garmin watch apps.
+*   [Google Play Services](https://www.google.com/policies/privacy/) - on Android.
+
+**Crash and log data**
+
+If an app crashes or hits an error, Firebase Crashlytics may collect information such as your device model, operating system version, app version, the app's settings at the time and the time of the error. It's used only to find and fix problems.
 
 **Cookies**
 
-Cookies are files with a small amount of data that are commonly used as anonymous unique identifiers. These are sent to your browser from the websites that you visit and are stored on your device's internal memory.
-
-This Service does not use these “cookies” explicitly. However, the app may use third-party code and libraries that use “cookies” to collect information and improve their services. You have the option to either accept or refuse these cookies and know when a cookie is being sent to your device. If you choose to refuse our cookies, you may not be able to use some portions of this Service.
-
-**Service Providers**
-
-I may employ third-party companies and individuals due to the following reasons:
-
-*   To facilitate our Service;
-*   To provide the Service on our behalf;
-*   To perform Service-related services; or
-*   To assist us in analyzing how our Service is used.
-
-I want to inform users of this Service that these third parties have access to their Personal Information. The reason is to perform the tasks assigned to them on our behalf. However, they are obligated not to disclose or use the information for any other purpose.
+The apps don't use cookies themselves. Some of the third-party services above may use similar identifiers under their own policies.
 
 **Security**
 
-I value your trust in providing us your Personal Information, thus we are striving to use commercially acceptable means of protecting it. But remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and I cannot guarantee its absolute security.
+I use encrypted connections and keep data to the minimum the apps need. No method of transmission over the internet is completely secure, but I work to protect your information.
 
-**Links to Other Sites**
+**Children**
 
-This Service may contain links to other sites. If you click on a third-party link, you will be directed to that site. Note that these external sites are not operated by me. Therefore, I strongly advise you to review the Privacy Policy of these websites. I have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services.
+The apps are not directed at children under 13, and I don't knowingly collect personal information from them. If you believe a child has provided personal information, contact me and I'll delete it.
 
-**Children’s Privacy**
+**Changes to this policy**
 
-These Services do not address anyone under the age of 13. I do not knowingly collect personally identifiable information from children under 13 years of age. In the case I discover that a child under 13 has provided me with personal information, I immediately delete this from our servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact me so that I will be able to do the necessary actions.
+I may update this policy from time to time, and the newest version is always at https://saycheese.yfranko.com/privacy. This version is effective as of October 31, 2026.
 
-**Changes to This Privacy Policy**
+**Contact**
 
-I may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. I will notify you of any changes by posting the new Privacy Policy on this page.
-
-This policy is effective as of 2023-07-06
-
-**Contact Us**
-
-If you have any questions or suggestions about my Privacy Policy, do not hesitate to contact me at yoav.francoo@gmail.com.
-
-This privacy policy page was created at [privacypolicytemplate.net](https://privacypolicytemplate.net) and modified/generated by [App Privacy Policy Generator](https://app-privacy-policy-generator.nisrulz.com/)
+Questions or suggestions? Email yoav.francoo@gmail.com.
